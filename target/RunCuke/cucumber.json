@@ -1,0 +1,435 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3686968300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "User should add product to shopping cart successfully",
+        "description": "",
+        "id": "computer-test;user-should-add-product-to-shopping-cart-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 93300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 90332600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 827139100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on Computer tab",
+            "match": {
+              "location": "ComputerSteps.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 740470400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Desktop",
+            "match": {
+              "location": "ComputerSteps.iClickOnDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90347600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select By position by \"Name: A to Z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name: A to Z",
+                  "offset": 25
+                }
+              ],
+              "location": "ComputerSteps.iSelectByPositionBy(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2043896100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "ComputerSteps.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171786100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to see Build your own computer",
+            "match": {
+              "location": "ComputerSteps.iShouldBeAbleToSeeBuildYourOwnComputer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72856000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select processor \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerSteps.iSelectProcessor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76080500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select ram \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerSteps.iSelectRam(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56866600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I select hdd \"400 GB [+$100.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400 GB [+$100.00]",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerSteps.iSelectHdd(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49807600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I select OS \"Vista Premium [+$60.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vista Premium [+$60.00]",
+                  "offset": 13
+                }
+              ],
+              "location": "ComputerSteps.iSelectOS(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49068900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I select Software \"Total Commander [+$5.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Total Commander [+$5.00]",
+                  "offset": 19
+                }
+              ],
+              "location": "ComputerSteps.iSelectSoftware(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202170900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should able to see the price",
+            "match": {
+              "location": "ComputerSteps.iShouldAbleToSeeThePrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45037600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should Click on ADD TO CARD Button.",
+            "match": {
+              "location": "ComputerSteps.iShouldClickOnADDTOCARDButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216144500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should able to see message \"The product has been added to your shopping cart\" on Top green Bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The product has been added to your shopping cart",
+                  "offset": 30
+                }
+              ],
+              "location": "ComputerSteps.iShouldAbleToSeeMessageOnTopGreenBar(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39592600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should able to close clicking on cross button",
+            "match": {
+              "location": "ComputerSteps.iShouldAbleToCloseClickingOnCrossButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144479400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should able to mouseHover on Shopping cart",
+            "match": {
+              "location": "ComputerSteps.iShouldAbleToMouseHoverOnShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1414618800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on GO TO CART button",
+            "match": {
+              "location": "ComputerSteps.iClickOnGOTOCARTButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27307900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should be able to see \"Shopping cart\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping cart",
+                  "offset": 25
+                }
+              ],
+              "location": "ComputerSteps.iShouldBeAbleToSeeText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2123969300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should be able to change the Product quantity",
+            "match": {
+              "location": "ComputerSteps.iShouldBeAbleToChangeTheProductQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 351521000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on Update shopping cart",
+            "match": {
+              "location": "ComputerSteps.iClickOnUpdateShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27034100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify the Total \"$2,950.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$2,950.00",
+                  "offset": 18
+                }
+              ],
+              "location": "ComputerSteps.verifyTheTotal(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44469300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on checkbox to I agree with the terms of service",
+            "match": {
+              "location": "ComputerSteps.iClickOnCheckboxToIAgreeWithTheTermsOfService()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477769200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on checkout",
+            "match": {
+              "location": "ComputerSteps.iClickOnCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28635100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify the Text \"Welcome, Please Sign In!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome, Please Sign In!",
+                  "offset": 17
+                }
+              ],
+              "location": "ComputerSteps.verifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 626999900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on Checkout as guest button",
+            "match": {
+              "location": "ComputerSteps.iClickOnCheckoutAsGuestButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 13,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Test",
+    "description": "As user I want to explore Computer page of nop commerce website",
+    "id": "computer-test",
+    "keyword": "Feature",
+    "uri": "computertest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
